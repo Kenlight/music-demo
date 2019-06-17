@@ -57,7 +57,7 @@
           }
           map[key].items.push(new Singer(item.Fsinger_mid, item.Fsinger_name))
         })
-        // 为了得到有序的列表，我们需要处理map
+        // 为了得到有序的列表，我们需要处理map，测试修改
         let ret = []
         let hot = []
         for (let key in map) {
